@@ -1,0 +1,171 @@
+
+
+@font-face {
+  font-family: "Black Mango";
+  src: url("./assets/Fonts/black-mango-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.spacing-p-uno {
+  margin-left: 6vw;
+}
+.spacing-hr {
+  margin-left: 3  vh;
+}
+.color-border {
+  border: 2vh;
+  border: solid;
+  border-color: #cdcdcd;
+}
+.color-bg {
+  background-color: #dbb6c7;
+}
+.color-titles {
+  color: #dbb6c7;
+}
+.custom-rotate {
+  transform: rotate(10deg);
+}
+.black-mango {
+  font-family: "Black Mango", serif;
+  font-optical-sizing: auto;
+  font-weight: 50vw;
+  font-style: normal;
+}
+.sizing-img {
+  width: 25vw;
+  height: 60vh;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.938);
+}
+
+.sizing-img-r{
+  width: 17vw;
+  height: 37vh;
+}
+.hola-tittle {
+  margin-right: 5vw;
+  font-size: 15vh;
+  height: 20vh;
+}
+.sizing-margin {
+  padding-top: 2vh;
+  width: 27vw;
+  height: 75vh;
+}
+.wave-container {
+  position: relative;
+}
+.spacing-tittle {
+  margin-left: 6vw;
+  color: #e7c0d2;
+}
+.bg-robot {
+  background-color: #b6604c;
+}
+.m-robot {
+  margin-left: 10vw;
+}
+.image-robot {
+  margin-right: 10vw;
+}
+.wave-container svg {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+}
+
+#image-title {
+  width: 100%;
+  display: block;
+}
+.img-engan1{
+ position: relative;
+ top: 10vh;
+ right: 21vh;
+}
+.img-engan2{
+  width: 8vw;
+  position: relative;
+  left: 35vw;
+  bottom: 30vh;
+}
+.h-robot{
+  height: 135vh;
+}
+
+.wave-image-container {
+  position: relative;
+  text-align: center;
+  background: #c1e0e8;
+}
+
+.wave-top,
+.wave-bottom {
+  background: #c1e0e8;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.wave-footer {
+  background-color: #b6604c;
+  width: 100%;
+  position: relative;
+  bottom: 10vh;
+}
+
+.wave-top svg,
+.wave-bottom svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wave-top path {
+  transform-origin: center;
+}
+
+.wave-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.rotate-image1{
+  transform: rotate(10deg);
+}
+.rotate-image2{
+  transform: rotate(-10deg);
+}
+.animate-img:hover{
+  transform: scale(1);
+}
+.progress-bar {
+  border-radius: 50px;
+  font-size: 0.9rem;
+}
+.progress-bar::after {
+  content: attr(aria-valuenow) '%';
+  position: absolute;
+  right: 10px;
+  color: #fff;
+  font-size: 0.75rem;
+}
+.margin-e{
+  margin-top: 3vh;
+}
+
+footer{
+  background-color: #0a0c0c;
+  color:#dbb6c7 ;
+  height: 35vh;
+}
+.foterLinks{
+  color:#dbb6c7 ;
+
+}
